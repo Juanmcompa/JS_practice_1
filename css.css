@@ -1,0 +1,119 @@
+/*Css estilos para el form*/
+
+body {
+    background-color: #1f1f1f;
+    color:blanchedalmond;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+}
+
+
+/*Classes*/
+
+.titles {
+    
+}
+
+.wrapper {
+    width: auto;
+    height: auto;
+    padding: 10%;
+}
+
+.container {
+    border-radius: 10px;
+    border: 1px blanchedalmond;
+    padding: 25px;
+    border-style: solid;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-top: 10px;
+  }
+
+  .button {
+    background-color: #0a91cf;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    max-width: 150px;
+    float: right;
+  }
+
+  input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: blanchedalmond;
+    padding-left: 10px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: blanchedalmond;
+    padding-left: 10px;
+  }
+
+  select {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: blanchedalmond;
+    padding-left: 10px;
+ }
+
+
+
+ select::after{
+    content:"\025be";
+    display:table-cell;
+    text-align:center;
+    padding-top:7px;
+    width:30px;
+    height:30px;
+    background-color:#d9d9d9;
+    position:absolute;
+    top:0;
+    right:0px;
+    pointer-events: none;
+ }
+
+  .submit {
+      padding-top: 25px;
+  }
